@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahenda Olwal's Interactive Webpage</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      padding: 20px;
+    }
+
+    .highlight {
+      color: #d63384;
+      font-weight: bold;
+    }
+
+    button {
+      margin: 10px 0;
+      padding: 10px 15px;
+      background-color: #5e60ce;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #6930c3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Welcome to My Webpage</h1>
+    <p>Tech | Social Impact | AI | Motherhood</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p id="description">I am passionate about building sustainable communities and integrating tech for social good.</p>
+      <button onclick="changeText()">Changes My Story</button>
+    </section>
+
+    <section>
+      <h2>Style Experiment</h2>
+      <p>Click below to see the magic of JavaScript styling!</p>
+      <button onclick="toggleStyle()">Changes Title Style</button>
+    </section>
+
+    <section>
+      <h2>Dynamic Content</h2>
+      <p>Let's us add or remove an element dynamically:</p>
+      <button onclick="addOrRemoveElement()">Add/Remove Element</button>
+      <div id="container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ahenda Olwal | <a href="mailto:ahendaolwal@gmail.com">Contact Me</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
